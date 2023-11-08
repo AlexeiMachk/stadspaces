@@ -68,3 +68,41 @@ body, html {
     font-size: 1em; /* Smaller font size for smaller screens */
   }
 }
+/* Style for the main image */
+.main-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the text columns */
+.text-columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1; /* Each column will take up equal space */
+    padding: 0 15px; /* Spacing between columns */
+    text-align: justify;
+}
+
+/* Style for the footer */
+.site-footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
